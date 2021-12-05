@@ -1,0 +1,35 @@
+body {
+    color: #999;
+}
+
+.card {
+    width: 75px;
+    height: 35px;
+    filter: grayscale(100%); 
+}
+
+.incorrect {
+    display: none;
+    color:  red;
+    font-size: 12px;
+}
+
+.correct {
+    display: none;
+    color: green;
+    font-size: 12px;
+}
+
+.input {
+    width: 200px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.submit {
+    background: green;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 15px;
+    color: #fff;
+}
